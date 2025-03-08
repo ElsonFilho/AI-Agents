@@ -1,8 +1,8 @@
-# An Introduction to Multi-AI Agent Systems  
+# An Introduction to Multi AI Agent Systems  
 ![screenshot](Picture.png)
-Artificial Intelligence is evolving rapidly, and one of its most exciting advancements is Multi-AI Agent Systems. These systems enable multiple AI Agents to collaborate to achieve complex objectives. I found this to be one of the most fascinating recent developments in the field. This fundamentally changes how machines interact with the world and plays a crucial role in AI's future progress.  
+Artificial Intelligence is evolving rapidly, and one of its most exciting advancements is Multi AI Agent Systems. These systems enable multiple AI Agents to collaborate to achieve complex objectives. I found this to be one of the most fascinating recent developments in the field. This fundamentally changes how machines interact with the world and plays a crucial role in AI's future progress. 
 
-In this article, I provide an overview of Multi-AI Agent Systems covering their core concepts, architectures, and applications to help you understand the field and take your first steps into it.  
+In this article, I provide an overview of Multi AI Agent Systems covering their core concepts, architectures, and applications to help you understand the field and take your first steps into it.
 
 ## AI Agents  
 
@@ -48,9 +48,9 @@ These independent agents can be as simple as a prompt and an LLM call, or as com
 - **Specialization** – You can create expert agents focused on specific domains, which helps with overall system performance.  
 - **Control** – You can explicitly control how agents communicate (as opposed to relying on function calling).  
 
-## Multi-Agent Architectures  
+### Multi AI Agent Architectures  
 
-There are several ways to connect agents in a multi-agent system:  
+There are several ways to connect agents to collaborate in a Multi AI Agent System:  
 
 - **Network** – Each agent can communicate freely with any other agent and choose whom to call next.  
 - **Supervisor** – A central supervisor agent directs communication, deciding which agent to call next.  
@@ -59,9 +59,29 @@ There are several ways to connect agents in a multi-agent system:
 - **Custom workflow** – Agents communicate only within defined subsets. Some interactions follow a set flow, while certain agents can decide the next call.  
 ![screenshot](AI_Agent_Arch.png)
 
-Many authors and content creators use metaphors and analogies to explain Multi-Agent AI Systems. Some compare them to **living organisms**, where collaborative cells perform specialized functions to achieve overall efficiency. Others describe them as **corporate departments**, each responsible for specific tasks such as financial analysis, customer service, or internal policy management. These analogies help simplify complex AI concepts, making it easier to understand how multiple agents collaborate to achieve intelligent and efficient outcomes.  
+Many authors and content creators use metaphors and analogies to explain Multi AI Agent Systems. Some compare them to **living organisms**, where collaborative cells perform specialized functions to achieve overall efficiency. Others describe them as **corporate departments**, each responsible for specific tasks such as financial analysis, customer service, or internal policy management. These analogies help simplify complex AI concepts, making it easier to understand how multiple agents collaborate to achieve intelligent and efficient outcomes.  
 
-## Application Examples  
+
+### Multi AI Agent Creation
+
+When building a Multi AI Agent System, think like a manager designing an efficient team. Define the goal, outline the process, and assign roles based on expertise. Just like in a company, each agent should have a clear responsibility and the right tools to perform its tasks effectively.
+
+Key considerations:
+
+- **Roles**: define each agent’s function clearly, ensuring specialization and avoiding overlap.
+- **Focus**: assign specific objectives to each agent, keeping them aligned with the overall goal.
+- **Tools**: equip agents with the necessary APIs, models, and data sources to perform their tasks effectively. Tools allow your agents to communicate to the external world and perform actions. They must be versatile to handle LLMs and other systems responses; fault-tolerant able to handle exceptions and errors and circumvent the issue; and can implement caching to optimizing requests when calling APIs and external services.
+- **Cooperation**: establish how agents will collaborate, share information, and delegate responsibilities.
+- **Guardrails**: implement constraints to prevent errors such as hallucinations, infinite loops, or inefficient decision-making.
+- **Memory**: determine how agents will store and recall information, whether through short-term, long-term, or entity memory, to enhance learning and continuity.
+
+### Tasks
+
+Define the task with a clear objective, expected outcome, and relevant context. Specify a callback and override default agent tools with those tailored for the task.
+
+**Additional options**: Require human input before completion, execute asynchronously, structure the output as Pydantic, JSON, or a file, and enable parallel execution for efficiency.
+
+### Application Examples  
 
 The practical applications of Multi AI Agent Systems span various industries:  
 
@@ -69,7 +89,18 @@ The practical applications of Multi AI Agent Systems span various industries:
 - **Autonomous Vehicles** – Coordinate to enhance traffic management and vehicle safety.  
 - **Finance** – Improve trading strategies, fraud detection, and risk management.
 
-**In this repository I am including some more practical examples.**
+### Additional Practical Examples (available in this repository)
+#### Jupyter Notebooks using Crew.AI 
+
+- **L2**: [Create Agents to Research and Write an Article](L2_research_write_article.ipynb)
+- **L3**: [Multi-agent Customer Support Automation](L3_customer_support.ipynb)
+- **L4**: [Tools for a Customer Outreach Campaign](L4_tools_customer_outreach.ipynb)
+- **L5**: [Automate Event Planning](L5_tasks_event_planning.ipynb)
+- **L6**: [Multi-agent Collaboration for Financial Analysis](L6_collaboration_financial_analysis.ipynb))
+
+#### Jupyter Notebooks using LangGraph
+- [LangGraph_ChatBot.ipynb](LangGraph_ChatBot.ipynb)
+
 
 ## Popular Tools for Multi AI Agent Systems  
 
@@ -91,12 +122,12 @@ For those interested in learning more, the following resources offer valuable in
 
 ## Closing Thoughts  
 
-AI is evolving fast, and Multi-AI Agent Systems are proving to be a game-changer across industries. From optimizing supply chains to powering autonomous vehicles and financial systems, these agents are making problem-solving smarter and more efficient. However, as we integrate AI into more aspects of our lives, ensuring ethical usage is crucial—designing systems that are transparent, fair, and aligned with human values.  
+AI is evolving fast, and Multi AI Agent Systems are proving to be a game-changer across industries. From optimizing supply chains to powering autonomous vehicles and financial systems, these agents are making problem-solving smarter and more efficient. However, as we integrate AI into more aspects of our lives, ensuring ethical usage is crucial—designing systems that are transparent, fair, and aligned with human values.  
 
 The way we work is also shifting. AI Agents won’t just automate tasks; they’ll collaborate with us, enhancing human decision-making and allowing us to focus on creativity, strategy, and higher-level problem-solving. Understanding and leveraging these technologies will be a key skill, and there’s never been a better moment to dive in, experiment, and see what’s possible. Hopefully, the resources here will help you get started and spark some ideas on how you might use Multi AI Agent Systems in your own projects.  
 
 ## About Me  
 
-I am a **Senior Data Scientist** with global experience in AI, analytics, and business transformation. Passionate about leveraging AI to solve complex challenges, I have led many projects across major enterprises in Latin America and Europe. Currently, I’m exploring the impact of Multi-Agent AI Systems and their potential to reshape industries.  
+I am a **Senior Data Scientist** with global experience in AI, analytics, and business transformation. Passionate about leveraging AI to solve complex challenges, I have led many projects across major enterprises in Latin America and Europe. Currently, I’m exploring the impact of Multi AI Agent Systems and their potential to reshape industries.  
 
 I’m always open to discussions, collaborations, and exchanging insights — **let’s connect!**  
