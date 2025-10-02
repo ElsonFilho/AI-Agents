@@ -163,9 +163,10 @@ The practical applications of Multi AI Agent Systems span various industries:
 - **L5**: [Automate Event Planning](L5_tasks_event_planning.ipynb)
 - **L6**: [Multi-agent Collaboration for Financial Analysis](L6_collaboration_financial_analysis.ipynb))
 
-#### Jupyter Notebooks using LangGraph
+### LangGraph Examples
 - **[Conversational ChatBot](LangGraph_ChatBot.ipynb)** - State-based conversation management
-- **Cover Letter Customization** *(coming soon)* - Personalized job application materials
+- **[AI Cover Letter Generator](CoverLetter_AI_LangGraph_v005.ipynb)** - Personalized cover letters with skills matching and AIDA framework
+
 
 
 ## Popular Tools for Multi AI Agent Systems  
