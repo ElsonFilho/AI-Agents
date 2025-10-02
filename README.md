@@ -20,7 +20,9 @@ This repository explores Multi AI Agent Systems - autonomous entities that colla
 
 ### LangGraph Examples
 - **[Conversational ChatBot](LangGraph_ChatBot.ipynb)** - State-based conversation management
-- **Cover Letter Customization** *(coming soon)* - Personalized job application materials
+- **[AI Cover Letter Generator](CoverLetter_AI_LangGraph_v005.ipynb)** - Personalized cover letters with skills matching and AIDA framework
+
+![Cover Letter Generator](Screenshot.png)
 
 ## Technologies
 
@@ -36,6 +38,32 @@ This repository explores Multi AI Agent Systems - autonomous entities that colla
 - Financial analysis and reporting
 - Event planning and coordination
 - Marketing campaign automation
+
+## Featured: AI Cover Letter Generator
+
+A complete LangGraph application that automates personalized cover letter creation using multi-agent workflows.
+
+### Key Features
+- CV analysis and skill extraction (PDF/DOCX/TXT support)
+- Job requirement matching with percentage scoring
+- Application history tracking to avoid duplicates
+- AIDA framework for compelling narratives
+- Skills gap analysis
+- Interactive Gradio web interface
+
+### Multi-Agent Architecture
+1. **Job Extraction Agent** - Parses company, title, and requirements
+2. **Skills Matching Agent** - Compares CV with job description
+3. **History Agent** - Checks previous applications
+4. **Writer Agent** - Generates personalized letter
+
+### Technologies
+LangGraph, Groq API (Llama 3.3 70B), Gradio, PyMuPDF, python-docx, Pandas
+
+**[Open Notebook](CoverLetter_AI_LangGraph_v005.ipynb)**
+
+
+
 
 # Deep Dive: Understanding Multi AI Agent Systems
 This section provides comprehensive background on multi-agent architectures and design patterns.
