@@ -1,11 +1,48 @@
-# An Introduction to Multi AI Agent Systems  
-![screenshot](Picture.png)
-Artificial Intelligence is evolving rapidly, and one of its most exciting advancements is Multi AI Agent Systems. These systems enable multiple AI Agents to collaborate to achieve complex objectives. I found this to be one of the most fascinating recent developments in the field. This fundamentally changes how machines interact with the world and plays a crucial role in AI's future progress. 
+# Multi AI Agent Systems
+Multi AI Agent Systems for autonomous task completion - from theory to implementation.
+
+
+> **Read the full article:** [An Introduction to Multi AI Agent Systems](https://www.linkedin.com/pulse/introduction-multi-ai-agent-systems-elson-mendes-filho-3pele/) on LinkedIn.
 
 In this article, I provide an overview of Multi AI Agent Systems covering their core concepts, architectures, and applications to help you understand the field and take your first steps into it.
 
-## AI Agents  
+## Overview
+This repository explores Multi AI Agent Systems - autonomous entities that collaborate to solve complex problems. It includes both theoretical foundations and practical implementations using modern frameworks.
 
+## Implementations
+
+### CrewAI Examples
+- **[Research & Article Writing](L2_research_write_article.ipynb)** - Agents that research topics and write articles
+- **[Customer Support Automation](L3_customer_support.ipynb)** - Multi-agent customer service system
+- **[Customer Outreach Campaign](L4_tools_customer_outreach.ipynb)** - Automated outreach with tool usage
+- **[Event Planning Automation](L5_tasks_event_planning.ipynb)** - Coordinating multiple planning tasks
+- **[Financial Analysis](L6_collaboration_financial_analysis.ipynb)** - Collaborative financial research and analysis
+
+### LangGraph Examples
+- **[Conversational ChatBot](LangGraph_ChatBot.ipynb)** - State-based conversation management
+- **Cover Letter Customization** *(coming soon)* - Personalized job application materials
+
+## Technologies
+
+- **Frameworks:** crewAI, LangGraph
+- **LLMs:** OpenAI GPT, Claude
+- **Tools:** LangChain, custom tool integration
+- **Python:** 3.9+
+
+## Real-World Applications
+
+- Customer support automation
+- Content creation and research
+- Financial analysis and reporting
+- Event planning and coordination
+- Marketing campaign automation
+
+# Deep Dive: Understanding Multi AI Agent Systems
+This section provides comprehensive background on multi-agent architectures and design patterns.
+![screenshot](Picture.png)
+Artificial Intelligence is evolving rapidly, and one of its most exciting advancements is Multi AI Agent Systems. These systems enable multiple AI Agents to collaborate to achieve complex objectives. I found this to be one of the most fascinating recent developments in the field. This fundamentally changes how machines interact with the world and plays a crucial role in AI's future progress. 
+
+## AI Agents  
 An **AI Agent** is an autonomous entity that perceives its environment and executes tasks (making decisions and taking actions) to achieve a specific goal. AI agents can be **reactive** (responding to inputs) or **proactive** (planning ahead based on objectives).  
 
 They typically follow a circular iterative process, leveraging Large Language Models (LLMs) and other tools to perceive their environment, research and reason, generate an output, and continuously refine their approach until they produce a satisfactory answer for the given task.  
@@ -89,7 +126,7 @@ The practical applications of Multi AI Agent Systems span various industries:
 - **Autonomous Vehicles** – Coordinate to enhance traffic management and vehicle safety.  
 - **Finance** – Improve trading strategies, fraud detection, and risk management.
 
-### Additional Practical Examples (available in this repository)
+### Additional Practical Applications (available in this repository)
 #### Jupyter Notebooks using Crew.AI 
 
 - **L2**: [Create Agents to Research and Write an Article](L2_research_write_article.ipynb)
@@ -99,7 +136,8 @@ The practical applications of Multi AI Agent Systems span various industries:
 - **L6**: [Multi-agent Collaboration for Financial Analysis](L6_collaboration_financial_analysis.ipynb))
 
 #### Jupyter Notebooks using LangGraph
-- [LangGraph_ChatBot.ipynb](LangGraph_ChatBot.ipynb)
+- **[Conversational ChatBot](LangGraph_ChatBot.ipynb)** - State-based conversation management
+- **Cover Letter Customization** *(coming soon)* - Personalized job application materials
 
 
 ## Popular Tools for Multi AI Agent Systems  
